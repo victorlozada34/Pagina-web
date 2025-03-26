@@ -1,0 +1,58 @@
+body{
+    background-image: url(../static/img/1643616-2940x2160-desktop-hd-berserk-anime-background-image.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    font-family: sans-serif
+
+    
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header{
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: rgb(173, 6, 6);
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 16px rgba(87, 0, 0, 0.936);
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+img{
+    width: 400px;
+    
+    margin: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding: 10px;
+    
+    
+}
+nav a:hover{
+    color: rgb(234, 151, 151);
+    margin: 10px;
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(139, 34, 34, 0.936);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 20px; 
+    
+}
+div{
+    color: aliceblue;
+}
+
